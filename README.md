@@ -715,3 +715,10 @@ None of these companies exist to provide AI services in 2024. They’re only doi
   *Richard Feynman
 
 
+
+## Docker Deployment
+To run the minimal API:
+```bash
+docker build -t tldw_server .
+docker run -p 8000:8000 tldw_server
+```
